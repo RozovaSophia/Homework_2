@@ -36,6 +36,7 @@ class Product:
         if int(price) <= 0:
             print("Цена не должна быть нулевая или отрицательная")
             return
+        self.__price = price
 
 
 class Category:
@@ -54,8 +55,9 @@ class Category:
         Category.product_count = len(self.__products)
 
     def add_product(self, product):
-        self.__products.append(product)
-        Category.product_count += 1
+        if isinstance(product, Product):
+            self.__products.append(product)
+            Category.product_count += 1
 
     @property
     def products(self):
