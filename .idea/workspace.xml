@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46cc7c31-033b-4ce4-ab8b-1715e230bc73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Homework_14.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_ctypes_test.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_sqlite3.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testbuffer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testclinic.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testclinic_limited.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testconsole.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testinternalcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testlimitedcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testmultiphase.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_testsinglephase.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_tkinter.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_uuid.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_wmi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/_zoneinfo.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/activate.nu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/activate_this.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/black.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/blackd.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/coverage-3.13.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/coverage.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/coverage3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/dmypy.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/doesitcache.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/dul-receive-pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/dul-upload-pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/dulwich.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/findpython.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/flake8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/httpx.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/isort-identify-imports.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/isort.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/keyring.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/libcrypto-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/libffi-8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/libssl-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/mypy.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/mypyc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/normalizer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pbs-install.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pip-3.13.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.13.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pkginfo.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/poetry.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/py.test.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pycodestyle.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pydoc.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pyflakes.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pygmentize.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pyproject-build.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pytest.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python313.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/stubgen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/stubtest.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/tcl86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/tk86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/trove-classifiers.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/virtualenv.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/winsound.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/zlib1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/homework_14_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="30gvwLZ4DI3qI7LwLYXKvCKBOn4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_category.test_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/homework__14.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thunderobot\PycharmProjects\Homework_14.1" />
+      <recent name="C:\Users\Thunderobot\PycharmProjects\Homework_14.1\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.utils">
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Homework_14.1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (Homework_14.1)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_category.test_category" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14.1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_category.test_category&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_product.test_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14.1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_product&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_product.test_product" />
+        <item itemvalue="Python tests.Python tests for test_category.test_category" />
+        <item itemvalue="Python tests.Python tests for test_product.test_product" />
+        <item itemvalue="Python tests.Python tests for test_category.test_category" />
+        <item itemvalue="Python tests.Python tests for test_category.test_category" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46cc7c31-033b-4ce4-ab8b-1715e230bc73" name="Changes" comment="" />
+      <created>1754062267757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754062267757</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/homework_14.2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
