@@ -5,9 +5,7 @@ from src.utils import Category, Product
 
 @pytest.fixture
 def test_category():
-    return Category(
-        "Fruits", "Fresh and cheap fruits", ["apples", "bananas", "oranges"]
-    )
+    return Category("Fruits", "Fresh and cheap fruits", ["apples", "bananas", "oranges"])
 
 
 @pytest.fixture
