@@ -21,7 +21,10 @@ class Product:
         return self.__price * other.quantity
 
     def __add__(self, other):
-        return self.__price + other.__price
+        if type(self) == type(other):
+            return self.__price + other.__price
+        else:
+            raise TypeError
 
     @property
     def products(self):
@@ -29,12 +32,17 @@ class Product:
 
     @classmethod
     def new_product(cls, product_data):
-
-        name = product_data["name"]
-        description = product_data["description"]
-        price = product_data["price"]
-        quantity = product_data["quantity"]
-        return cls(name, description, price, quantity)
+        if isinstance(product_data, dict):
+            if issubclass(product_data, Product):
+                name = product_data["name"]
+                description = product_data["description"]
+                price = product_data["price"]
+                quantity = product_data["quantity"]
+                return cls(name, description, price, quantity)
+            else:
+                raise TypeError
+        else:
+            raise TypeError
 
     @property
     def price(self):
@@ -74,6 +82,32 @@ class Category:
     @property
     def products(self):
         return self.__products
+
+
+class Smartphone(Product):
+    efficiency: float
+    model: str
+    memory: int
+    color: str
+
+    def __init__(self, name, description, price, quantity, efficiency: float, model: str, memory: int, color: str):
+        super().__init__(name, description, price, quantity)
+        self.efficiency = efficiency
+        self.model = model
+        self.memory = memory
+        self.color = color
+
+
+class LawnGrass(Product):
+    country: str
+    germination_period: int
+    color: str
+
+    def __init__(self, name, description, price, quantity, country: str, germination_period: int, color: str):
+        super().__init__(name, description, price, quantity)
+        self.country = country
+        self.germination_period = germination_period
+        self.color = color
 
 
 def read_json(path: str) -> dict:
