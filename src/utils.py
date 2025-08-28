@@ -3,6 +3,7 @@ import os
 
 
 class Product:
+    """инициализирует свойства продукта, умножает количество продукта на его стоимость"""
     name: str
     description: str
     price: float
@@ -21,10 +22,14 @@ class Product:
         return self.__price * other.quantity
 
     def __add__(self, other):
-        if type(self) == type(other):
-            return self.__price + other.__price
-        else:
-            raise TypeError
+        try:
+            if type(self) == type(other):
+                return self.__price + other.__price, self.quantity + other.quantity
+            else:
+                raise TypeError
+        except TypeError:
+            print('Ошибка типа данных')
+            return None
 
     @property
     def products(self):
@@ -57,6 +62,7 @@ class Product:
 
 
 class Category:
+    """создает категории продуктов, считает их"""
     name: str
     description: str
     products: list
@@ -85,12 +91,13 @@ class Category:
 
 
 class Smartphone(Product):
+    """дочерний класс, который описывает только смартфоны"""
     efficiency: float
     model: str
     memory: int
     color: str
 
-    def __init__(self, name, description, price, quantity, efficiency: float, model: str, memory: int, color: str):
+    def __init__(self, name, description, price, quantity, efficiency, model, memory, color):
         super().__init__(name, description, price, quantity)
         self.efficiency = efficiency
         self.model = model
@@ -99,6 +106,7 @@ class Smartphone(Product):
 
 
 class LawnGrass(Product):
+    """дочерний класс, который описывает только газонную траву"""
     country: str
     germination_period: int
     color: str
