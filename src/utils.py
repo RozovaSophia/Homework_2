@@ -24,7 +24,7 @@ class Product:
     def __add__(self, other):
         try:
             if type(self) == type(other):
-                return self.__price + other.__price, self.quantity + other.quantity
+                return (self.__price * self.quantity) + (other.__price * other.quantity)
             else:
                 raise TypeError
         except TypeError:
