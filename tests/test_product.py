@@ -28,3 +28,8 @@ def test_products(test_product):
     product = Product("Test Product", "Test Description", 150.0, 7)
     product.price = 200.0
     assert product.price == 200.0
+
+
+def test_empty_product():
+    with pytest.raises(ValueError, match="Товар с нулевым количеством не может быть добавлен"):
+        Product("Apples", "Juicy golden apples", 100, 0)

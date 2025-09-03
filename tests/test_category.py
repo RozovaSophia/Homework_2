@@ -1,3 +1,5 @@
+import pytest
+
 from src.utils import Category
 
 
@@ -14,3 +16,7 @@ def test_category(test_category):
 
     product = Category("Test Product", "Test Description", ["apples", "bananas", "oranges"])
     assert product.products == ["apples", "bananas", "oranges"]
+
+
+def test_raises(empty_test_category):
+    assert empty_test_category.middle_price() == "division by zero"
