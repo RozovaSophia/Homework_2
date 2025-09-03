@@ -3,7 +3,7 @@ import os
 from abc import ABC, abstractmethod
 
 
-class BaseProduct:
+class BaseProduct(ABC):
 
     @abstractmethod
     def __init__(self, name, price):
@@ -19,7 +19,7 @@ class Mixin:
         self.price = price
         self.quantity = quantity
 
-    def __str__(self):
+    def __repr__(self):
         return f"{self.name} {self.price} {self.quantity} {self.description}"
 
 
