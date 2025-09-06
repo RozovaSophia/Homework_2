@@ -99,7 +99,10 @@ class Category:
     def __init__(self, name, description, products=None):
         self.name = name
         self.description = description
-        self.__products = products if products else []
+        if products is not None:
+            self.__products = products
+        else:
+            raise ValueError("Продукты с нулевым количеством не могут быть добавлены")
         Category.category_count += 1
         Category.product_count = len(self.__products)
 

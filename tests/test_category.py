@@ -20,3 +20,8 @@ def test_category(test_category):
 
 def test_raises(empty_test_category):
     assert empty_test_category.middle_price() == "division by zero"
+
+def test_empty_products():
+    with pytest.raises(ValueError, match="Продукты с нулевым количеством не могут быть добавлены"):
+        Category("Apples", "Juicy golden apples", )
+
