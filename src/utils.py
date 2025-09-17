@@ -128,8 +128,8 @@ class Category:
             for product in self.__products:
                 total_price += product.price
             middle_price = total_price / Category.product_count
-        except ZeroDivisionError as e:
-            return f"{e}"
+        except ZeroDivisionError:
+            return 0
         else:
             return middle_price
 
