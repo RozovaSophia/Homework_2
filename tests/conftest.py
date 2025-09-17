@@ -1,6 +1,6 @@
 import pytest
 
-from src.utils import Category, Product
+from src.utils import *
 
 
 @pytest.fixture
@@ -16,3 +16,6 @@ def empty_test_category():
 @pytest.fixture
 def test_product():
     return Product("Apples", "Juicy golden apples", 67.9, 90)
+
+class TestMixinCLass(Mixin, BaseProduct):
+    pass

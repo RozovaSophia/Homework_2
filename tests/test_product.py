@@ -1,6 +1,7 @@
 import pytest
 
-from src.utils import Product
+from src.utils import Product, Category
+from tests.conftest import TestMixinCLass
 
 
 def test_products(test_product):
@@ -33,3 +34,19 @@ def test_products(test_product):
 def test_empty_product():
     with pytest.raises(ValueError, match="Товар с нулевым количеством не может быть добавлен"):
         Product("Apples", "Juicy golden apples", 100, 0)
+
+def test_mixin_method():
+    result = TestMixinCLass("Name", "Description", 0, 0)
+    assert result.name == "Name"
+    assert result.description == "Description"
+    assert result.price == 0
+    assert result.quantity == 0
+
+def test_add_method():
+    product_1 = Product("Apples", "Juicy golden apples", 100, 2)
+    product_2 = Product("Bananas", "Juicy yellow Bananas", 50, 4)
+    expected_result = (100 * 2) + (50 * 4)
+    assert product_1 + product_2 == expected_result
+
+    product_3 = ("Fruits", "Fresh and cheap fruits", 2, 5)
+    assert product_1 + product_3 is None
