@@ -35,12 +35,13 @@ def test_empty_product():
     with pytest.raises(ValueError, match="Товар с нулевым количеством не может быть добавлен"):
         Product("Apples", "Juicy golden apples", 100, 0)
 
-def test_mixin_method():
-    result = TestMixinCLass("Name", "Description", 0, 0)
+@pytest.mark.parametrize("name, description, price, quantity", [("Name", "Description", 10, 10)])
+def test_mixin_method(name, description, price, quantity):
+    result = TestMixinCLass("Name", "Description", 10, 10)
     assert result.name == "Name"
     assert result.description == "Description"
-    assert result.price == 0
-    assert result.quantity == 0
+    assert result.price == 10
+    assert result.quantity == 10
 
 def test_add_method():
     product_1 = Product("Apples", "Juicy golden apples", 100, 2)

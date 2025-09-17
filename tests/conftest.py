@@ -17,5 +17,11 @@ def empty_test_category():
 def test_product():
     return Product("Apples", "Juicy golden apples", 67.9, 90)
 
+
 class TestMixinCLass(Mixin, BaseProduct):
-    pass
+    def __init__(self, name, description, price, quantity):
+        self.name = name
+        self.description = description
+        self.price = price
+        self.quantity = quantity
+
